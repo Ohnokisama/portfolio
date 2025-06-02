@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion";
-import Resume from "./../assets/Jephthah's Resume.pdf";
+import Resume from "./../assets/Resume.pdf";
 
 const Hero = () => {
   return (
