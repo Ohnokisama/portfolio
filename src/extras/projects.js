@@ -3,8 +3,16 @@ import Jaypegs from './../assets/jaypegs.png'
 import Oathplace from './../assets/oathplace.png'
 import Chest from './../assets/chest.png'
 import Steady from './../assets/steadysteps.png'
+import MUI from './../assets/mui.png'
 
 const projects = [
+  {
+    image: MUI,
+    title: 'React MUI',
+    projectLink: 'https://jeff-react-mui.netlify.app',
+    category: 'Web Development',
+    description: 'A project sampling my familiarity with Material UI'
+  },
   {
     image: Steady,
     title: 'Steady Steps',
