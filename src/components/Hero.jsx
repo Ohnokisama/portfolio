@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion";
-import Resume from "./../assets/Resume.pdf";
+import Resume from "./../assets/Onuoha_Jephthah.pdf";
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
         Hi there &#128075;!!
       </span>
       <h1 className='text-3xl md:text-6xl font-bold my-2'>
-        I'm Onuoha Jephthah
+        I'm Jephthah Onuoha
       </h1>
       <h3 className="text-xl md:text-3xl flex items-center md:my-3">
         I'm a &nbsp;

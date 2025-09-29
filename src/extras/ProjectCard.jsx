@@ -13,9 +13,9 @@ const ProjectCard = ({project: {image, title, description, category, projectLink
     //     </a>
     //   </div>
     // </div>
-    <div className='border-2 border-main/40 rounded-2xl'>
+    <div className='border-2 border-main/40 bg-main/10 backdrop-blur rounded-2xl'>
       <img src={image} alt="" className='w-full rounded-t-2xl' />
-      <div className="p-4 bg-main/10 backdrop-blur rounded-b-2xl">
+      <div className="p-4  rounded-b-2xl">
         <h1 className="text-2xl font-semibold">{title}</h1>
         <p className="text-main font-bold">{category}</p>
         <p className='my-1 font-light'>
