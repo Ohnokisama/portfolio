@@ -4,8 +4,24 @@ import Oathplace from './../assets/oathplace.png'
 import Chest from './../assets/chest.png'
 import Steady from './../assets/steadysteps.png'
 import MUI from './../assets/mui.png'
+import Roeyal from './../assets/roeyal.png'
+import CoreMed from './../assets/coremed.png'
 
 const projects = [
+  {
+    image: Roeyal,
+    title: 'Roeyal',
+    projectLink: 'https://roeyal.vercel.app',
+    category: 'Web Development',
+    description: 'An e-commerce website for a streetwear fashion brand'
+  },
+  {
+    image: CoreMed,
+    title: 'CoreMed',
+    projectLink: 'https://coremed.vercel.app',
+    category: 'Web Development',
+    description: 'A healthcare management system for a medical clinic'
+  },
   {
     image: MUI,
     title: 'React MUI',
@@ -34,13 +50,13 @@ const projects = [
     category: 'Web Development',
     description: 'A Netflix clone for displaying trending and upcoming movies'
   },
-  {
-    image: Oathplace,
-    title: 'Oathplace Prosthetics',
-    projectLink: 'https://oathplaceprosthetics.com.ng',
-    category: 'Web Development',
-    description: 'A website for Oathplace Prosthetics'
-  },
+  // {
+  //   image: Oathplace,
+  //   title: 'Oathplace Prosthetics',
+  //   projectLink: 'https://oathplaceprosthetics.com.ng',
+  //   category: 'Web Development',
+  //   description: 'A website for Oathplace Prosthetics'
+  // },
   {
     image: Jaypegs,
     title: 'Jaypegs - Image Downloader',
